@@ -1,5 +1,8 @@
 package de.vogella.jsf.first.model;
 
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean
 public class TemperatureConvertor {
     private double celsius;
     private double fahrenheit;
@@ -31,4 +34,7 @@ public class TemperatureConvertor {
         return "calculated";
     }
 
+    public String getTestvalue() {
+    	return "aha";
+    }
 }

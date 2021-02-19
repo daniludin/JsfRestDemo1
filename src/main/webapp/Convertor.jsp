@@ -22,6 +22,7 @@
 
     <h:panelGroup rendered="#{temperatureConvertor.initial!=true}">
     <h3> Result </h3>
+    <hr/>
     <h:outputLabel value="Fahrenheit "></h:outputLabel>
     <h:outputLabel value="#{temperatureConvertor.fahrenheit}"></h:outputLabel>
     </h:panelGroup>
